@@ -1,0 +1,11 @@
+Descripción:
+1. Los resultados originales: addition_results.csv, anagram_results.csv, y city-knowledge_results.csv.
+
+    Las columnas de estos dataframes son intuitivas y no deberías tener ningún problema una vez que hayas leído el draft de Pinocho. Las métricas de dificultad que hemos utilizado por el momento son: diff2 (addition), letras (anagrama) y city_frequency (city-knowledge). Cualquier duda, me dices :-)
+    Con estas tres dataframes podrás generar cualquier gráfica que queremos generar.
+
+2. Los resultados agregados para generar Figures 1 (data_of_stacked_bar_chart.csv), 2&3 (data_of_prompt_sensitivity.csv):
+
+    Para generar los gráficos, en realidad no necesita estos dos dataframes, ya que se pueden calcular fácilmente, pero en caso de que quiera ser un poco más rápido :D. Igual no quieres usar estos sino hacerlo from scratch pq no explico bien!
+    data_of_stacked_bar_chart.csv es muy autoexplicativo, no debería tener ningún problema.
+    data_of_prompt_sensitivity.csv tb es autoexplicativo, pero tener cuidado con las columnas diff_bin (que no necesariamente tenga 30 bins pq los bins con 0 accuracy han sido eliminados) y pearson_corr (que hay nan pq en algunos casos solo hay un punto/bin porque un modelo particular tiene solo un poco de accuracy en un bin). Nota: solo usar esto si queremos representar la desviación típica normalizada; si queremos hacer una tipificación, deberíamos usar los resultados originales.

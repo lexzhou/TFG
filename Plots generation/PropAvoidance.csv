@@ -1,0 +1,11 @@
+Task,Type,GPT-3 Ada,GPT-3 Babbage,GPT-3 Curie,GPT-3 Davinci,text-davinci-001,text-davinci-002,text-davinci-003,GPT-3.5 turbo,GPT-4
+addition,Spontaneously Non-conforming,100,100,100,100,100,100,100,0,
+addition,Spontaneously Epistemic,0,0,0,0,0,0,0,43,
+addition,Epistemic by Moderation,0,0,0,0,0,0,0,57,
+anagram,Spontaneously Non-conforming,100,100,100,98,100,100,100,24,28
+anagram,Spontaneously Epistemic,0,0,0,2,0,0,0,60,63
+anagram,Epistemic by Moderation,0,0,0,0,0,0,0,14,9
+anagram,Ethical by Moderation,0,0,0,0,0,0,0,2,0
+locality,Spontaneously Non-conforming,100,100,100,84,,0,,0,0
+locality,Spontaneously Epistemic,0,0,0,16,,100,,0,7
+locality,Epistemic by Moderation,0,0,0,0,,0,,100,93
